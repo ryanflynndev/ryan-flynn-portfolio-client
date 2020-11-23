@@ -24,7 +24,7 @@ export default function Navbar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" style={{ background: 'transparent', boxShadow: 'none'}}>
         <Toolbar>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
@@ -32,7 +32,7 @@ export default function Navbar() {
           <Typography variant="h6" className={classes.title}>
             Ryan Flynn
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button color="inherit">Resume</Button>
         </Toolbar>
       </AppBar>
     </div>
