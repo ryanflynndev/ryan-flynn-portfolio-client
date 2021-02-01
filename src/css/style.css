@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* We set the font to Lato and if that doesn't exist then it's sans-serif */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: rgb(19, 17, 17);
+    padding: 10px;
+}
+
+.logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.logo{
+    height: 70px;
+}
