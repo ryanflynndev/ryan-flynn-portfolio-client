@@ -9,6 +9,9 @@ function App() {
         <div className="logo-box">
             <img src={logo} className="logo" alt="logo"/>
         </div>
+        <div className="title-of-site">
+          Ryan Flynn | Full-Stack Engineer
+        </div>
       </div>
     </div>
   );

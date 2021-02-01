@@ -6,8 +6,9 @@
 
 body {
     /* We set the font to Lato and if that doesn't exist then it's sans-serif */
-    font-weight: 400;
-    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
     line-height: 1.7;
     color: rgb(19, 17, 17);
     padding: 10px;
@@ -21,4 +22,10 @@ body {
 
 .logo{
     height: 70px;
+}
+
+.title-of-site{
+    position: absolute;
+    top: 55px;
+    left: 150px
 }
